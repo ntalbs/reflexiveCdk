@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { ReflexiveCdkStack } from '../lib/reflexive_cdk-stack';
+import { ReflexiveRsEc2Stack } from '../lib/reflexive-rs-ec2-stack';
 
 const app = new cdk.App();
-new ReflexiveCdkStack(app, 'ReflexiveCdkStack');
+new ReflexiveRsEc2Stack(app, 'ReflexiveRustEc2Stack');

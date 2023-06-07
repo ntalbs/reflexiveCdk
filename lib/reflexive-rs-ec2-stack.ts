@@ -9,7 +9,7 @@ import { CodeBuildAction, CodeDeployServerDeployAction, CodeStarConnectionsSourc
 import { BuildSpec, LinuxBuildImage, Project } from 'aws-cdk-lib/aws-codebuild';
 import { ServerApplication, ServerDeploymentGroup } from 'aws-cdk-lib/aws-codedeploy';
 
-export class ReflexiveCdkStack extends Stack {
+export class ReflexiveRsEc2Stack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
