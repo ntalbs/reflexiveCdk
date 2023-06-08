@@ -1,8 +1,8 @@
 {
-  "name": "reflexive_cdk",
+  "name": "reflexive-cdk",
   "version": "0.1.0",
   "bin": {
-    "reflexive_cdk": "bin/reflexive_cdk.js"
+    "reflexive-cdk": "bin/reflexive-cdk.js"
   },
   "scripts": {
     "build": "tsc",
