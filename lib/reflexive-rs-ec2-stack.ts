@@ -52,7 +52,7 @@ function createAsg(stack: Stack): AutoScalingGroup {
   })
 
   const alb = new ApplicationLoadBalancer(stack, 'Alb', {
-    loadBalancerName: 'Stackulus-ALB',
+    loadBalancerName: 'reflexive-rs-alb',
     vpc: vpc,
     internetFacing: true
   })
